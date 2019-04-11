@@ -2,8 +2,6 @@
 
 from time import sleep
 from picamera import PiCamera
-print "Hallo Kollegen"
-
 camera = PiCamera()
 
 camera.start_preview()
